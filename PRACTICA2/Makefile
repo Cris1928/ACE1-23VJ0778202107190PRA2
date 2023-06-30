@@ -1,5 +1,5 @@
-all: pru.asm
-	dosbox -c 'ml prueba/pru.asm' -c 'pru.exe'
+all: main.asm
+	dosbox -c 'ml main.asm' -c 'main.exe'
 
-debug: pru.asm
-	dosbox -c 'ml prueba/pru.asm' -c 'debug pru.exe'
+debug: main.asm
+	dosbox -c 'ml main.asm' -c 'debug main.exe'
